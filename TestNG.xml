@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Zed_Axis_Framework">
+<listeners>
+   <listener class-name="com.axis.utilities.Reporting" />
+</listeners>
+
+  <test name="Login Module Test Cases">
+      <parameter name="browser" value="chrome"/>
+      <classes>
+         <class name="com.axis.testCases.TC_LoginTestCases" />
+      </classes>
+  </test> 
+  
+  
+  <!--  test name="Login Module Test Cases 2"-->
+     <!--   <parameter name="browser" value="chrome"/-->
+      <!--  classes-->
+         <!--  class name="com.axis.testCases.TC_LoginToCompanyTestCases" /-->
+      <!--  /classes-->
+  <!--  /test--> 
+  
+ </suite>
